@@ -1,0 +1,27 @@
+{ "type":"module",
+  "name": "violin-course",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000v\u0000i\u0000o\u0000l\u0000i\u0000n\u0000-\u0000c\u0000o\u0000u\u0000r\u0000s\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadzeyaHope/violin-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadzeyaHope/violin-course/issues"
+  },
+  "homepage": "https://github.com/NadzeyaHope/violin-course#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
