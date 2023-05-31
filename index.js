@@ -5,7 +5,7 @@ import home from './pages/home.js';
 import aboutUs from './pages/aboutUs.js';
 import price from './pages/price.js';
 
-const port = 5000
+const port = process.env.PORT ?? 5000
 
 const routes = {
   '/': home,
