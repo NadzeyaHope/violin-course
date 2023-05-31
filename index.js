@@ -3,12 +3,14 @@ import notFound from './pages/notFound.js';
 import {isStaticUrl, serveRouteUrl, serveStaticUrl} from './lib/server.js';
 import home from './pages/home.js';
 import aboutUs from './pages/aboutUs.js';
+import price from './pages/price.js';
 
 const port = 5000
 
 const routes = {
   '/': home,
   '/about-us': aboutUs,
+  '/price' : price,
 }
 
 const index = http.createServer((req, res) => {

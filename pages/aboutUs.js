@@ -1,11 +1,17 @@
 import Navigation from '../components/Navigation.js';
 import Layout from '../components/Layout.js';
-import AboutUsSection from '../sections/aboutUs/AboutUsSection.js'
+import heroSectionAboutUs from '../sections/aboutUs/heroSectionAboutUs.js'
+import footer from '../sections/home/footer.js';
+import Ourteam from '../sections/aboutUs/ourteam.js';
+import TextAboutUs from '../sections/home/TextAboutUs.js';
 export default (params) => {
   return `
 ${Layout(`
     ${Navigation()}
-    ${AboutUsSection()}
+    ${heroSectionAboutUs()}
+    ${Ourteam()}
+    ${TextAboutUs()}
+    ${footer()}
 `)}  
   `
 }

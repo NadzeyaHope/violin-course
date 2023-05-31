@@ -57,8 +57,8 @@ section.menu .menu-items > a + a {
             <div class="menu-items">
                 <a href="/">Home</a>
                 <a href="/about-us">About us</a>
-                <a href="#">Price</a>
-                <a href="#">News</a>
+                <a href="/price">Price</a>
+                <a href="#">All Courses</a>
                 <a href="#">Contact us</a>
             </div>
             <div class="menu-search">
