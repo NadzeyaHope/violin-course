@@ -1,4 +1,6 @@
-export default () => {
+export default (params) => {
+  const {title, subTitle} = params;
+
   return `
 <style>
 section.hero {
@@ -33,12 +35,9 @@ section.hero a {
 
 <section class="hero">
     <div class="container">
-        <h1>Piano Academy Berlin</h1>
-        <h2>
-            Berlin’s Piano school for<br />
-            the beginners Student
-        </h2>
-        <a href="#">Register</a>
+        <h1>${title}</h1>
+        <h2>${subTitle}</h2>
+        <a href="/register">Register</a>
     </div>
 </section>
   `
