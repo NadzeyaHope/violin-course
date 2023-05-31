@@ -12,6 +12,13 @@ a {
     max-width: 1092px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1040px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
 body {
     background-color: #1d1817;
 }

@@ -13,9 +13,18 @@ export default () => {
     .section-price hr {
         margin: 10px 0 60px 0;
     }
+    
     .section-price .price-cards {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+    /*@media only screen and (max-width: 1040px) {
+        .section-price .price-cards {
+            flex-direction: column;
+        }
+    }*/
+    
     .section-price .price-cards .price-card button {
         background-color: #86E5DC;
         padding: 20px;
@@ -31,17 +40,40 @@ export default () => {
     
     }
     
+    .section-price .price-cards .price-card {
+        padding: 30px 20px 30px 20px;
+        background-color: #272727;
+        width: 20%;
+    }
+    
+    @media only screen and (max-width: 1040px) {
+         .section-price .price-cards .price-card {
+            width: 44%;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 860px) {
+         .section-price .price-cards .price-card {
+            width: 100%;
+        }
+    }
+    
     .section-price .price-cards .price-card div {
         margin-top: 16px;
         font-size: 30px;
     }
-    .section-price .price-cards .price-card {
-        padding: 30px 20px 30px 20px;
-        background-color: #272727;
-    }
+    
+    
     .section-price .price-cards .price-card + div {
-        margin-left: 30px;
+        /*margin-left: 30px;*/
     }
+    @media only screen and (max-width: 1040px) {
+        .section-price .price-cards .price-card + div {
+            margin-left: 0;         
+        }
+    }
+    
     .section-price .price-cards .active-price {
         border:2px #30CD8E solid;
         background-color: #1d1817;
