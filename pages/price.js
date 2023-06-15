@@ -1,6 +1,6 @@
-import Navigation from '../ui/components/Navigation.js';
-import Layout from '../ui/components/Layout.js';
-import HeroSection from '../ui/components/HeroSection.js';
+import Navigation from '../components/Navigation.js';
+import Layout from '../components/Layout.js';
+import HeroSection from '../components/HeroSection.js';
 export default () => {
     return `
 ${Layout(`

@@ -1,12 +1,12 @@
-import Navigation from '../ui/components/Navigation.js';
-import Layout from '../ui/components/Layout.js';
+import Navigation from '../components/Navigation.js';
+import Layout from '../components/Layout.js';
 import TextAboutUs from '../ui/sections/home/TextAboutUs.js';
 import PriceSection from '../ui/sections/home/PriceSection.js';
 import Classes from '../ui/sections/home/Classes.js';
 import Footer from '../ui/sections/home/Footer.js';
-import HeroSection from '../ui/components/HeroSection.js';
+import HeroSection from '../components/HeroSection.js';
 
-export default (params) => {
+export default () => {
   return `
 ${Layout(`
     ${Navigation()}

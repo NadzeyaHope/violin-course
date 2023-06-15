@@ -63,7 +63,7 @@ section.menu .menu-items > a + a {
             </div>
             <div class="menu-search">
                 <input/>
-                <a href="#" class="menu-sign-in">Sign in</a>
+                <a href="/login" class="menu-sign-in">Sign in</a>
             </div>
         </div>
     </div>
